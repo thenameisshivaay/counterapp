@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+
 import { IoIosCloseCircleOutline } from "react-icons/io";
 
 function InfoPage({ onClose,bgColor }: { onClose: () => void; bgColor:string; }) {
@@ -24,4 +24,5 @@ function InfoPage({ onClose,bgColor }: { onClose: () => void; bgColor:string; })
 }
 
 export default InfoPage
+
 
