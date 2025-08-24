@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import { IoIosCloseCircleOutline } from "react-icons/io";
 
 function Setting( { onClose,count, setCount , bgColor, setBgColor }: { count: number; setCount: (c:number)=>void ; onClose: () => void ;bgColor:string; setBgColor:(c:string)=>void}) {
@@ -61,4 +61,5 @@ function Setting( { onClose,count, setCount , bgColor, setBgColor }: { count: nu
 }
 
 export default Setting
+
 
