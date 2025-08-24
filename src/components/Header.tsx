@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { IoMdSettings } from "react-icons/io";
 import { IoIosInformationCircle } from "react-icons/io";
 import { GrPowerReset } from "react-icons/gr";
@@ -31,3 +31,4 @@ function Header( { count, setCount , bgColor, setBgColor }: { count: number; set
 }
 
 export default Header
+
