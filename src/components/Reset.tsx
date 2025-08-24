@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { IoIosCloseCircleOutline } from "react-icons/io";
 
 function Reset( { onClose, setCount , bgColor }: {  setCount: (c:number)=>void ; onClose: () => void ;bgColor:string; }) {
@@ -20,3 +20,4 @@ function Reset( { onClose, setCount , bgColor }: {  setCount: (c:number)=>void ;
 }
 
 export default Reset
+
