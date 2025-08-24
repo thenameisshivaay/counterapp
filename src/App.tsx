@@ -1,7 +1,7 @@
 
 import Counter from './components/Counter'
 import Header from './components/Header'
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
