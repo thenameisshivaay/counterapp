@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+
 
 function Counter({ count, setCount }: { count: number; setCount: (c:number)=>void }) {
   
@@ -16,4 +16,5 @@ function Counter({ count, setCount }: { count: number; setCount: (c:number)=>voi
 }
 
 export default Counter
+
 
